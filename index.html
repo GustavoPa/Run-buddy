@@ -38,7 +38,32 @@
     </header>
 
     <!--hero-->
-    <section>
+    <section class="hero">
+        <div class="hero-form">
+            <h3>Get started today</h3>
+            <p>fill out this form</p>
+            <!--add form element-->
+            <form action="">
+                <label for="name">Enter full name</label>
+                <input type="text" placeholder="your name" name="name" id="name" class="form-input" />
+                <label for="email">Email address</label>
+                <input type="email" placeholder="your email" name="email" id="email" class="form-input" />
+                <label for="phone">Phone number</label>
+                <input type="tel" placeholder="your number" name="phone" id="phone" class="form-input" />
+                <p>
+                    have you worked with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no">
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="age-limit">I acknowledge that i am the age of 18</label>
+                    <input type="checkbox" name="age-limit" id="age-limit">
+                </p>
+                <button type="submit">Get running!</button>
+            </form>
+        </div>
     </section>
     <!--what we do-->
     <section>
@@ -60,6 +85,10 @@
     <!--footer-->
     <footer>
         <h2>❤️ Made with love by Run Buddy.</h2>
+        <div>
+            <a href="#">Read our privacy policy</a><br />
+            &copy; 2019 Run Buddy , Inc.
+        </div>
     </footer>
 </body>
 
